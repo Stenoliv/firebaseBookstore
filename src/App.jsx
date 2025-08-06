@@ -3,7 +3,8 @@ import { AppBar, Toolbar, Typography, Button, Container } from "@mui/material";
 import BookTable from "./components/BookTable";
 import AddBookModal from "./components/AddBookModal";
 
-const firebaseUrl = import.meta.env.VITE_FIREBASE_URL;
+const firebaseUrl =
+  "https://bookstore-a107d-default-rtdb.europe-west1.firebasedatabase.app/";
 
 function App() {
   const [books, setBooks] = useState([]);
